@@ -11,8 +11,6 @@ deploy:
   skip_cleanup: true
   provider: script
   script: ./config/travis/deploy_github_pages.sh
-  github-token: $GITHUB_TOKEN
-  local_dir: build
   on:
     branch: master
 
